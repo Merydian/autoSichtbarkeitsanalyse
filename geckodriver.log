@@ -3394,3 +3394,12 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1646680414744	geckodriver	INFO	Listening on 127.0.0.1:55556
+1646680417813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofilehv4CQf"
+1646680419281	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofilehv4CQf\\search.json.mozlz4", (void 0)))
+1646680422708	Marionette	INFO	Listening on port 55565
+1646680423163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646680445266	Marionette	INFO	Stopped listening on port 55565
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 14732, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

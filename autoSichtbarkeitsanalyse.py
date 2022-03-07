@@ -11,15 +11,16 @@ import urllib.parse
 import zipfile
 
 class autoSbkA:
-    def __init__(self, name):
+    def __init__(self, name, gemeinden):
         self.name = name
+        self.kreise = gemeinden
         self.path = os.getcwd() + '/' + self.name
         self.dgmPath = self.path + '/dgm'
         self.domPath = self.path + '/dom'
 
-        self.download_dom(kreise=['Bad Nauheim', 'Münzenberg', 'Rockenberg', 'Wölfersheim'])
+        self.download_dom(kreise=self.kreise)
         self.extract_zips(self.domPath)
-        self.download_dgm(kreise=['Bad Nauheim', 'Münzenberg', 'Rockenberg', 'Wölfersheim'])
+        self.download_dgm(kreise=self.kreise)
         self.extract_zips(self.dgmPath)
 
     def download_dgm(self, kreise):
@@ -117,5 +118,5 @@ class autoSbkA:
 
 if __name__ == '__main__':
     name = 'try'
-    x = autoSbkA(name=name)
+    x = autoSbkA(name=name, gemeinden=['Bad Nauheim', 'Münzenberg', 'Rockenberg', 'Wölfersheim'])
 
