@@ -18,8 +18,8 @@ class autoSbkA:
         self.dgmPath = self.path + '/dgm'
         self.domPath = self.path + '/dom'
 
-        self.download_dom(kreise=self.kreise)
-        self.extract_zips(self.domPath)
+        #self.download_dom(kreise=self.kreise)
+        #self.extract_zips(self.domPath)
         self.download_dgm(kreise=self.kreise)
         self.extract_zips(self.dgmPath)
 
@@ -46,7 +46,7 @@ class autoSbkA:
         for i in range(22):
             for kreis in kreise:
                 list = driver.find_elements_by_class_name('content-box')
-                time.sleep(1)
+                #time.sleep(1)
                 x = [i for i in list if kreis in i.get_attribute('innerHTML')]
                 try:
                     html = x[0].get_attribute('innerHTML')
@@ -117,6 +117,6 @@ class autoSbkA:
 
 
 if __name__ == '__main__':
-    name = 'try'
-    x = autoSbkA(name=name, gemeinden=['Bad Nauheim', 'Münzenberg', 'Rockenberg', 'Wölfersheim'])
+    name = 'Caro'
+    x = autoSbkA(name=name, gemeinden=['Weilmünster', 'Weinbach'])
 

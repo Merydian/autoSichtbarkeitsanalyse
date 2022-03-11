@@ -3403,3 +3403,94 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1646680445266	Marionette	INFO	Stopped listening on port 55565
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 [Parent 14732, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1646942306958	geckodriver	INFO	Listening on 127.0.0.1:60412
+1646942310059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileqI3VTR"
+1646942311334	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileqI3VTR\\search.json.mozlz4", (void 0)))
+1646942314673	Marionette	INFO	Listening on port 60422
+1646942314929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646942524345	Marionette	INFO	Stopped listening on port 60422
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1646942569771	geckodriver	INFO	Listening on 127.0.0.1:60527
+1646942572850	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileWQdWZ0"
+1646942574221	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileWQdWZ0\\search.json.mozlz4", (void 0)))
+1646942577340	Marionette	INFO	Listening on port 60536
+1646942577722	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646942971200	Marionette	INFO	Stopped listening on port 60536
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileRfYEiR"
+1646942923576	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileRfYEiR\\search.json.mozlz4", (void 0)))
+1646942927158	Marionette	INFO	Listening on port 60717
+1646942927381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646943126666	Marionette	INFO	Stopped listening on port 60717
+1646943191471	geckodriver	INFO	Listening on 127.0.0.1:60826
+1646943194503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofilekcza7e"
+1646943196230	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofilekcza7e\\search.json.mozlz4", (void 0)))
+1646943202363	Marionette	INFO	Listening on port 60835
+1646943202578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646943206795	Marionette	INFO	Stopped listening on port 60835
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1646943335050	geckodriver	INFO	Listening on 127.0.0.1:61093
+1646943338624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofilehuWcmC"
+1646943339920	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofilehuWcmC\\search.json.mozlz4", (void 0)))
+1646943343111	Marionette	INFO	Listening on port 61102
+1646943343463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646943517896	Marionette	INFO	Stopped listening on port 61102
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1646944069913	geckodriver	INFO	Listening on 127.0.0.1:61390
+1646944073005	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofilewHcJXa"
+1646944074364	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofilewHcJXa\\search.json.mozlz4", (void 0)))
+1646944077717	Marionette	INFO	Listening on port 61401
+1646944077837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646944264882	Marionette	INFO	Stopped listening on port 61401
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileP9icUm"
+1646944144214	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileP9icUm\\search.json.mozlz4", (void 0)))
+1646944147176	Marionette	INFO	Listening on port 61493
+1646944147267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646944263089	Marionette	INFO	Stopped listening on port 61493
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofilei1T91v"
+1646944207696	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofilei1T91v\\search.json.mozlz4", (void 0)))
+1646944210943	Marionette	INFO	Listening on port 61605
+1646944211246	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646944401524	Marionette	INFO	Stopped listening on port 61605
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1646944461360	geckodriver	INFO	Listening on 127.0.0.1:61702
+1646944464734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileMMPWkv"
+1646944466729	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileMMPWkv\\search.json.mozlz4", (void 0)))
+1646944470541	Marionette	INFO	Listening on port 61711
+1646944470663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646944521090	geckodriver	INFO	Listening on 127.0.0.1:61805
+1646944524156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileher1Tl"
+1646944524872	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T\\AppData\\Local\\Temp\\rust_mozprofileher1Tl\\search.json.mozlz4", (void 0)))
+1646944528075	Marionette	INFO	Listening on port 61818
+1646944528353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646944658769	Marionette	INFO	Stopped listening on port 61818
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
